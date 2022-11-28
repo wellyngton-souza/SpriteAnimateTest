@@ -1,0 +1,16 @@
+.center-text{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+@keyframes Move {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x:192px;
+  }
+}
